@@ -12,7 +12,7 @@ const HelloForm: React.FC<Props> = () => {
     <form onSubmit={handleSubmit(onSubmit)}>
       <input type="text" {...register('name')} /> <br />
       <input type="email" {...register('email')} /> <br />
-      <button type="submit">Submit</button>
+      <button type="submit">Submit</button> <br />
       <small>Result below developer console</small>
     </form>
   );

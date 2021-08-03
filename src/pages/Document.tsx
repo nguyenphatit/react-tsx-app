@@ -42,7 +42,7 @@ const Document: React.FC = () => (
       <Card>
         <CardTitle>React Hooks</CardTitle>
         <CardBody>
-          <a href="https://reactjs.org/docs/hooks-intro.html" target="_blank">
+          <a href="https://reactjs.org/docs/hooks-intro.html" target="_blank" rel="noreferrer">
             Document
           </a>
         </CardBody>
@@ -50,7 +50,7 @@ const Document: React.FC = () => (
       <Card>
         <CardTitle>React Context API</CardTitle>
         <CardBody>
-          <a href="https://reactjs.org/docs/context.html" target="_blank">
+          <a href="https://reactjs.org/docs/context.html" target="_blank"  rel="noreferrer">
             Document
           </a>
         </CardBody>
@@ -58,7 +58,7 @@ const Document: React.FC = () => (
       <Card>
         <CardTitle>Styled-components</CardTitle>
         <CardBody>
-          <a href="https://styled-components.com/" target="_blank">
+          <a href="https://styled-components.com/" target="_blank"  rel="noreferrer">
             Document
           </a>
         </CardBody>
@@ -66,7 +66,7 @@ const Document: React.FC = () => (
       <Card>
         <CardTitle>React Hook Form</CardTitle>
         <CardBody>
-          <a href="https://react-hook-form.com/" target="_blank">
+          <a href="https://react-hook-form.com/" target="_blank"  rel="noreferrer">
             Document
           </a>
         </CardBody>
@@ -74,7 +74,7 @@ const Document: React.FC = () => (
       <Card>
         <CardTitle>Axios</CardTitle>
         <CardBody>
-          <a href="https://axios-http.com/docs/intro" target="_blank">
+          <a href="https://axios-http.com/docs/intro" target="_blank"  rel="noreferrer">
             Document
           </a>
         </CardBody>
