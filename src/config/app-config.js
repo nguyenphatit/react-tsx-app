@@ -26,10 +26,6 @@ class Config {
   getAuthorizeEndpoint() {
     return this.config.AuthorizeEndpoint;
   }
-
-  getPageSize() {
-    return this.config.PageSize;
-  }
 }
 
 export default new Config();
