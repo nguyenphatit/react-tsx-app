@@ -1,20 +1,18 @@
 import { useForm } from "react-hook-form";
 import { Hello } from "types/hello.type";
 
-interface Props {
-  login: Function
-}
+interface Props {}
 
-const HelloForm: React.FC<Props> = (props) => {
+const HelloForm: React.FC<Props> = () => {
   const { register, handleSubmit } = useForm();
 
-  const onSubmit = (data: Hello) => props.login(data)
+  const onSubmit = (data: Hello) => console.log(data)
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
-      <input type="text" {...register('username')} /> <br />
-      <input type="text" {...register('password')} /> <br />
-      <button type="submit">Submit</button>
+      <input type="text" {...register('name')} /> <br />
+      <input type="email" {...register('email')} /> <br />
+      <button type="submit">Submit</button> <br />
       <small>Result below developer console</small>
     </form>
   );
