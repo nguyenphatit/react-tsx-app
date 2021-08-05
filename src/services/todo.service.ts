@@ -1,11 +1,10 @@
-import axios from "axios";
 import appConstant from "constants/appConstant";
-import { AxiosResponse } from "types";
+import {AxiosResponse} from 'types';
+import api from './api'
 
 class TodoService {
-
   public static async fetchTodos(): Promise<AxiosResponse> {
-    return axios.get(`${appConstant.JSON_PLACEHOLDER_URL}todos`);
+    return api.get('/todos');
   }
 }
 
